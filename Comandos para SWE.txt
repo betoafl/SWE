@@ -1,0 +1,20 @@
+# Nota: Todos comandos devem ser executados no prompt de comando.
+# instalar serviço no servidor...
+<caminho>\SWE.exe -install
+Por exemplo: \\server\aplicativos\SWE.exe -install
+
+# iniciar o serviço... sSWE1 é o nome dado ao objeto TService
+sc start sSWE1
+
+# pausar o serviço...
+sc pause sSWE1
+
+# continuar o serviço...
+sc continue sSWE1
+
+# parar o serviço...
+sc stop sSWE1
+
+# desinstalar serviço no servidor...
+<caminho>\SWE.exe -uninstall
+Por exemplo: \\server\aplicativos\SWE.exe -uninstall

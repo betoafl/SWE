@@ -1,0 +1,13 @@
+program swe;
+
+uses
+  SvcMgr,
+  swe1 in 'swe1.pas' {dmSWE1: TService};
+
+{$R *.RES}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TdmSWE1, dmSWE1);
+  Application.Run;
+end.
